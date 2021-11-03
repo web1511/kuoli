@@ -10,13 +10,12 @@ jobs:
     steps:
       # 下载代码
       - name: deploy aliyun
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           password: ${{ secrets.PSD }}
-        run: |
-          ls
-          echo "开始啦啦"
-          git pull
-          node app.js
+          script: |
+            cd kuoli/
+            ./deploy.sh
