@@ -15,7 +15,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
-          key: ${{ secrets.KEY }}
+          key: ${{ secrets.RSA_KEY }}
           script: |
             cd kuoli/
             ./deploy.sh
