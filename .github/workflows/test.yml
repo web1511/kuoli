@@ -18,4 +18,4 @@ jobs:
           key: ${{ secrets.RSA_KEY }}
           script: |
             cd kuoli/
-            ./deploy.sh
+            ls
