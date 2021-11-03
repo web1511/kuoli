@@ -72,6 +72,6 @@ router.post("/list", (ctx) => {
 });
 app.use(router.routes());
 
-app.listen(3000, () => {
-  console.log("http://47.119.131.63:3000");
+app.listen(8001, () => {
+  console.log("http://47.119.131.63:8001");
 });

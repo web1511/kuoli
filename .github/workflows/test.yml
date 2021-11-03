@@ -19,5 +19,4 @@ jobs:
           script: |
             cd kuoli/
             ls
-            git pull
             node app.js
