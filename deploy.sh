@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo kuoli Project
 # docker-compose up -d --force-recreate --build
 ls
