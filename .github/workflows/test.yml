@@ -17,7 +17,7 @@ jobs:
           port: ${{ secrets.PORT }}
           password: ${{ secrets.PSD }}
       - run: |
-          cd kuoli/
+          ls
           echo "开始啦啦"
           git pull
           node app.js
