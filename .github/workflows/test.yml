@@ -20,5 +20,4 @@ jobs:
             cd kuoli/
             ls
             docker ps
-            npm i
-            npm run start
+            docker run -p 8008:8005 mynode
