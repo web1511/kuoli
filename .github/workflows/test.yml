@@ -19,4 +19,4 @@ jobs:
           script: |
             cd kuoli/
             ls
-            node app.js
+            npm run start
