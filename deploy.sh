@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 echo "开始啦啦"
 # docker-compose up -d --force-recreate --build
 ls
